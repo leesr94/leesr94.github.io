@@ -17,7 +17,7 @@
 
 # Language of your content in 2-letter code, e.g.: en, de.
 # You may also provide a location, e.g.: en-us, de_AT.
-lang:                  en
+lang:                  ko-kr
 
 # The title of your blog. Used in the sidebar and the browser tab.
 title:                 leesr
@@ -25,8 +25,7 @@ title:                 leesr
 # A short description (~150 chars) of the page used for the meta description tag.
 # Can use markdown, but no more than one paragraph (enforced by `>`)
 description:           >
-  Hydejack is a boutique Jekyll theme for hackers, nerds, and academics,
-  with a focus on personal sites that are meant to impress.
+  조금 느려도 끝까지 해보기!🫠
 
 # A shorter description for the sidebar.
 tagline:               Github 블로그로 개발 공부 중!
@@ -37,13 +36,13 @@ keywords:              []
 # A (square) logo for your site.
 # If provided, it will be shown at the top of the sidebar.
 # It also used by the `jekyll-seo-tag` plugin.
-logo:                  /assets/img/logo.png
+logo:                  /assets/img/Mogua.jpg
 
 # This should be the same author as first entry in `_data/authors.yml`.
 author:
   # Used by `jekyll-feed`:
-  name:                <firstname> <lastname>
-  email:               <mail@domain.tld>
+  name:                Sora Lee
+  email:               sr940718@gmail.com
   # # Used by `jekyll-seo-tag`:
   # twitter:             <username>
 
@@ -51,20 +50,16 @@ author:
 menu:
   - title:             About
     url:               /about/
-  - title:             Category
-    url:               /example/
-  - title:             Documentation
-    url:               /docs/
+  - title:             portfolio
+    url:               /portfolio/
+  - title:             study
+    url:               /study/
 
 # Add links to the footer.
 # Typically you'll want to link to your cookie- or privacy policy (if appliable), etc..
 legal:
   - title:             LICENSE
     url:               /LICENSE/
-  - title:             NOTICE
-    url:               /NOTICE/
-  - title:             CHANGELOG
-    url:               /CHANGELOG/
 
 # This text will appear in a `<small>` tag in the footer of every page.
 copyright:             © 2021. All rights reserved.
