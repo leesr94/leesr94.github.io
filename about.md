@@ -15,7 +15,8 @@ redirect_from:
 
 ## Lee Sora
 
-Java로 개발 공부 중!
+Java로 개발 공부 중입니다.
+모과 집사에용🐈
 
 
 <!-- ## Download
@@ -47,7 +48,7 @@ Write all content with Markdown. __Hydejack__ gives you [additional CSS classes]
 
 ## 코드 쓰기
 ```html
-<!-- file: `_includes/my-body.html` -->
+
 <script type="module">
   document.querySelector("hy-push-state").addEventListener("hy-push-state-load", () => {
     const supportsCodeHighlights = false; // TBD!!
@@ -137,4 +138,5 @@ Use the the form below to purchase Hydejack PRO:
 [rouge]: http://rouge.jneen.net
 [katex]: https://khan.github.io/KaTeX/
 [mathjax]: https://www.mathjax.org/
-[tinyletter]: https://tinyletter.com/ -->
+[tinyletter]: https://tinyletter.com/
+-->
