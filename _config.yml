@@ -25,7 +25,7 @@ title:                 leesr
 # A short description (~150 chars) of the page used for the meta description tag.
 # Can use markdown, but no more than one paragraph (enforced by `>`)
 description:           >
-  조금 느려도 끝까지 해보기!🫠
+  조금 느려도 끝까지 해보기🫠
 
 # A shorter description for the sidebar.
 tagline:               Github 블로그로 개발 공부 중!
@@ -65,7 +65,7 @@ legal:
 copyright:             © 2023. All rights reserved.
 
 # Format of the permalinks
-permalink:             /:categories/:year-:month-:day-:title/
+permalink:             /:portfolio/:year-:month-:day-:title/
 
 # Pagination configuration (used by the `blog` layout)
 paginate:              10

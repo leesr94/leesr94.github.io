@@ -15,7 +15,7 @@ redirect_from:
 
 ## Lee Sora
 
-Java로 개발 공부 중입니다.
+Java로 개발 공부 중입니다. <br>
 모과 집사에용🐈
 
 
