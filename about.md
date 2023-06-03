@@ -13,22 +13,12 @@ redirect_from:
 
 <!--author-->
 
-## 내소개
+## Lee Sora
 
-소개
-
-
-**강조** 일반글.
-
-> 인용 — [링크], [링크], [이력서 링크].
-{:.lead}
+Java로 개발 공부 중!
 
 
-## 소제목
-
-**강조** 내용
-
-## Download
+<!-- ## Download
 
 {% include table.md %}
 
@@ -147,4 +137,4 @@ Use the the form below to purchase Hydejack PRO:
 [rouge]: http://rouge.jneen.net
 [katex]: https://khan.github.io/KaTeX/
 [mathjax]: https://www.mathjax.org/
-[tinyletter]: https://tinyletter.com/
+[tinyletter]: https://tinyletter.com/ -->
