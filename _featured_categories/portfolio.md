@@ -12,7 +12,7 @@ slug: portfolio
 description: >
   포트폴리오
   
-permalink: /categories/portfolio
+permalink: /portfolio
 
 # (Optional) You can disable grouping posts by date.
 # no_groups: true
