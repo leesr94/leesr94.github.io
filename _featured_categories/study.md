@@ -12,8 +12,6 @@ slug: study
 description: >
   개발 공부
 
-permalink: /study
-
 # (Optional) You can disable grouping posts by date.
 # no_groups: true
 
