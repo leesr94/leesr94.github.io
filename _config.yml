@@ -28,7 +28,7 @@ description:           >
   조금 느려도 끝까지 해보기🫠
 
 # A shorter description for the sidebar.
-tagline:               Github 블로그로 개발 공부 중!
+tagline:               Github 블로그로 개발 공부 중입니다.
 
 # A list of keywords for your blog
 keywords:              []
@@ -278,7 +278,7 @@ hydejack:
     enabled:           false
     cache_version:     13
     precache_assets:
-      - /assets/img/swipe.png
+      - /assets/img/swipe.svg
 
 
 # Collections
@@ -286,7 +286,7 @@ hydejack:
 
 collections:
   featured_categories:
-    permalink:         /:name/
+    permalink:         /categories/
     output:            true
 
   featured_tags:
