@@ -239,6 +239,57 @@ input, select, textarea {
 		text-align: right;
 	}
 
+/* p 스킬 */
+
+	.skill-sub {
+		font-weight: 500;
+	}
+
+	.skill-content {
+		margin-left: 30px;
+		font-size: smaller;
+		word-break: keep-all;
+	}
+	
+	@media screen and (max-width: 980px) {
+
+		.skill-content {
+			font-size: smaller;
+			word-break: keep-all;
+		}
+
+	}
+
+	@media screen and (max-width: 480px) {
+
+		.skill-content {
+			font-size: smaller;
+			word-break: keep-all;
+		}
+
+	}
+
+/* p 어바웃 */
+
+	.p-about {
+		display: flex;
+		flex-direction: row;
+		word-break: keep-all;
+	}
+
+	.p-about>span {
+		margin-right: 2em;
+	}
+
+	@media screen and (max-width: 980px) {
+
+		.p-about {
+			width: 40%;
+			margin: 8px auto;
+		}
+
+	}
+
 /* Container */
 
 	.container {
@@ -2034,7 +2085,7 @@ input, select, textarea {
 	}
 
 	header.major {
-		margin: 0 0 1em 0;
+		margin: 1em 0;
 	}
 
 		header.major:after {
@@ -2402,6 +2453,7 @@ input, select, textarea {
 			.image.fit.about-me img {
 				display: block;
 				width: 70%;
+				margin: 0 auto;
 			}
 
 /* List */
