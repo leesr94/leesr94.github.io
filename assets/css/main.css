@@ -254,17 +254,7 @@ input, select, textarea {
 	@media screen and (max-width: 980px) {
 
 		.skill-content {
-			font-size: smaller;
-			word-break: keep-all;
-		}
-
-	}
-
-	@media screen and (max-width: 480px) {
-
-		.skill-content {
-			font-size: smaller;
-			word-break: keep-all;
+			margin-left: auto;
 		}
 
 	}

@@ -12,21 +12,37 @@
 		<link rel="stylesheet" href="assets/css/main.css" />
 		<noscript><link rel="stylesheet" href="assets/css/noscript.css" /></noscript>
 		
-		<link rel="icon" href="assets/logo.ico/favicon.ico" type="image/x-icon" sizes="16x16">
+		<link rel="apple-touch-icon" sizes="57x57" href="assets/logo.ico/apple-icon-57x57.png">
+		<link rel="apple-touch-icon" sizes="60x60" href="assets/logo.ico/apple-icon-60x60.png">
+		<link rel="apple-touch-icon" sizes="72x72" href="assets/logo.ico/apple-icon-72x72.png">
+		<link rel="apple-touch-icon" sizes="76x76" href="assets/logo.ico/apple-icon-76x76.png">
+		<link rel="apple-touch-icon" sizes="114x114" href="assets/logo.ico/apple-icon-114x114.png">
+		<link rel="apple-touch-icon" sizes="120x120" href="assets/logo.ico/apple-icon-120x120.png">
+		<link rel="apple-touch-icon" sizes="144x144" href="assets/logo.ico/apple-icon-144x144.png">
+		<link rel="apple-touch-icon" sizes="152x152" href="assets/logo.ico/apple-icon-152x152.png">
+		<link rel="apple-touch-icon" sizes="180x180" href="assets/logo.ico/apple-icon-180x180.png">
+		<link rel="icon" type="image/png" sizes="192x192"  href="assets/logo.ico/android-icon-192x192.png">
+		<link rel="icon" type="image/png" sizes="32x32" href="assets/logo.ico/favicon-32x32.png">
+		<link rel="icon" type="image/png" sizes="96x96" href="assets/logo.ico/favicon-96x96.png">
+		<link rel="icon" type="image/png" sizes="16x16" href="assets/logo.ico/favicon-16x16.png">
+		<link rel="manifest" href="assets/logo.ico/manifest.json">
+		<meta name="msapplication-TileColor" content="#ffffff">
+		<meta name="msapplication-TileImage" content="/ms-icon-144x144.png">
+		<meta name="theme-color" content="#ffffff">
 	</head>
 	<body class="is-preload">
 
 		<!-- Header -->
 			<section id="header">
 				<div class="inner">
-					<h3>😽</h3>
+					<h3><img src="images/cat.png" width="50px"/></h3>
 					<h2>안녕하세요<br />
 					백엔드 개발자 <strong>이소라</strong>입니다.</h2>
 					<p>꾸준히 배우고, 적극적으로 질문하고, 항상 더 나은 방향을 고민하는 개발자가 되고 싶습니다.</p>
 					<p>저만의 일정 관리와 정리 작성 역량으로 팀원에게 선한 영향력을 보일 수 있는<br>
 						커뮤니케이션 능력까지 뛰어난 개발자를 목표로 노력하고 있습니다.</p>
 					<ul class="actions special">
-						<li><a href="#one" class="button scrolly">START! 💨</a></li>
+						<li><a href="#one" class="button scrolly">START🚀</a></li>
 					</ul>
 				</div>
 			</section>
@@ -140,17 +156,20 @@
 				<div class="container">
 					<header class="major">
 						<h2>CONTECT</h2>
-						<p>감사합니다 :)</p>
 					</header>
 					<div style="width: 70%; margin: 0 auto;">
-						<form name="mailform">
+						<form name="mailform" action="https://script.google.com/macros/s/AKfycbzc81cpY4JppPc2-0uh7CFy71LcCRjF3W08KFD7xkAOH5tqunT5IzujdahLWReYB1j3xg/exec"
+							method="post" data-email="sr940718@gmail.com">
 							<input type="text" name="name" placeholder="Name" autocomplete="off" style="margin-bottom: 20px;">
+							<input type="text" name="email" placeholder="Email" autocomplete="off" style="margin-bottom: 20px;">
 							<input type="text" name="title" placeholder="Title" autocomplete="off" style="margin-bottom: 20px;">
 							<textarea name="message" placeholder="Message" cols="30" rows="5" autocomplete="off" style="margin-bottom: 20px;"></textarea>
-							<button type="submit" onclick="location.href='mailto:sr940718@gmail.com?cc=' + 
-								document.mailform.name.value + '&subject=' + document.mailform.title.value + '&body=' +
-								document.mailform.message.value">SEND</button>
+							<button>SEND</button>
 						</form>
+					</div>
+
+					<div style="display:none;" class="thankyou_message">
+						<h2>연락주셔서 감사합니다:) 빠른 시일 내에 답변 드리겠습니다.</h2>
 					</div>
 				</div>
 			</section>
@@ -173,6 +192,7 @@
 			<script src="assets/js/breakpoints.min.js"></script>
 			<script src="assets/js/util.js"></script>
 			<script src="assets/js/main.js"></script>
+			<script data-cfasync="false" type="text/javascript" src="https://cdn.rawgit.com/dwyl/html-form-send-email-via-google-script-without-server/master/form-submission-handler.js"></script>
 
 	</body>
 </html>
