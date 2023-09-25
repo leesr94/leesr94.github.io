@@ -119,7 +119,7 @@
 							<h3>FOOEATING</h3>
 							<p>음식점 대기 예약 사이트</p>
 							<ul class="actions special">
-								<li><a href="https://github.com/leesr94/FOOEATING_origin#readme" target="_blank" class="button">More</a></li>
+								<li><a href="https://github.com/leesr94/FOOEATING_JSP#readme" target="_blank" class="button">More</a></li>
 							</ul>
 						</div>
 						<div class="col-6 col-12-medium">
@@ -143,11 +143,13 @@
 						<p>감사합니다 :)</p>
 					</header>
 					<div style="width: 70%; margin: 0 auto;">
-						<form action="MAILTO:sr940718@gmail.com" method="post" enctype="text/plain">
+						<form name="mailform">
 							<input type="text" name="name" placeholder="Name" autocomplete="off" style="margin-bottom: 20px;">
 							<input type="text" name="title" placeholder="Title" autocomplete="off" style="margin-bottom: 20px;">
 							<textarea name="message" placeholder="Message" cols="30" rows="5" autocomplete="off" style="margin-bottom: 20px;"></textarea>
-							<button type="submit">SEND</button>
+							<button type="submit" onclick="location.href='mailto:sr940718@gmail.com?cc=' + 
+								document.mailform.name.value + '&subject=' + document.mailform.title.value + '&body=' +
+								document.mailform.message.value">SEND</button>
 						</form>
 					</div>
 				</div>
