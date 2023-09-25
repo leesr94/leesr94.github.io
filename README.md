@@ -1,2 +1,2 @@
 # portfolio
-이소라의 포트폴리오
+https://leesr94.github.io/
