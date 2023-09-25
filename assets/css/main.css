@@ -290,6 +290,14 @@ input, select, textarea {
 
 	}
 
+	@media screen and (max-width: 480px) {
+		
+		.p-about {
+			margin-left: 17%;
+		}
+
+	}
+
 /* Container */
 
 	.container {
