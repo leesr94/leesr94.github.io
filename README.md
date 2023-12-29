@@ -7,7 +7,7 @@
 ## Project
 ![image](https://github.com/leesr94/leesr94.github.io/assets/131628924/3c63104e-f0c4-4198-bd84-98d756394a3f)
 <br>
-<div align="left">
+<div>
   
   ### FOOEATING  
   음식점 대기 예약 서비스  
@@ -15,7 +15,7 @@
   
 </div>
  
-<div align="right">
+<div>
   
   ### ModernHome
   조립식 가구 공정 MES 서비스  
